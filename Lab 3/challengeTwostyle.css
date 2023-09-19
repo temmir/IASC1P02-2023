@@ -1,0 +1,23 @@
+body {
+  background-color: red;
+}
+
+.tableClass{
+  color: green;
+  font-style: italic;
+}
+
+.firstClass{
+  text-indent: 50px;
+  font-size: 30px;
+}
+
+.secondClass{
+  text-indent: 50px;
+  font-size: 30px;
+}
+
+.thirdClass{
+  text-indent: 50px;
+  font-size: 30px;
+}
