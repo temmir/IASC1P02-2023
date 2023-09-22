@@ -7,16 +7,16 @@ body {
 }
 
 .firstClass{
-  text-indent: 50px;
+  display:inline-block;
   font-size: 30px;
 }
 
 .secondClass{
-  text-indent: 50px;
+  display:inline-block;
   font-size: 30px;
 }
 
 .thirdClass{
-  text-indent: 50px;
+  display:inline-block;
   font-size: 30px;
 }
