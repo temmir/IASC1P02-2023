@@ -1,0 +1,43 @@
+.content {
+  border: 2px dashed purple;
+  padding: 30px;
+  text-align: center;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+.text1 {
+  margin: 0;
+}
+
+.text2{
+  color: red;
+  vertical-align: super;
+}
+
+.secondpart{
+  color: orange;
+  font-size: 20px;
+}
+
+.thirdpart{
+  color: green;
+  font-size: 10px;
+  text-align: center;
+  margin-top: -60px
+}
+
+.fourthpart{
+  color: purple;
+  text-align: right;
+  margin-bottom:  50px;
+  font-size: 10px;
+}
+
+.text3{
+  text-transform: uppercase;
+  color:yellow;
+}
