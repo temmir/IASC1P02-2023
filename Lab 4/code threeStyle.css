@@ -1,0 +1,28 @@
+body{
+  width: 1800px;
+  height: 100px;
+  padding: 40px;
+  background-color: green;
+  margin-top: 300px;
+}
+
+
+.firstbox{
+  color: red;
+  margin-top: 30px;
+}
+
+.firstbox2{
+  color:  darkgreen;
+  margin-bottom: 30px;
+}
+
+.part1{
+  border: 4px dashed black;
+
+}
+
+.awsome{
+  color: purple;
+  margin-left: -20px;
+}
