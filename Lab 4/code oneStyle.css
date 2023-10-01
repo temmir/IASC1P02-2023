@@ -1,0 +1,20 @@
+.wrap{
+  background-color: blue;
+  border: 5px  solid black;
+  width: 1600px;
+  margin: 160px;
+}
+
+.Text{
+  border-width: 1px;
+  border-style: dashed;
+  border-color: cyan;
+  color: magenta;
+  margin: 10px;
+}
+
+img {
+  border: 1px black solid;
+  border: dashed yellow;
+  padding: 15px;
+}
