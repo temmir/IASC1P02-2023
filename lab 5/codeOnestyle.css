@@ -1,0 +1,39 @@
+body{
+  color: white;
+}
+
+#wrapper{
+  width:950px;
+  height:645px;
+  margin:0 auto;
+  background-color: red;
+}
+
+#header{
+  height:70px;
+  text-align: center;
+}
+
+#leftside{
+  height: 505px;
+  background-color: green;
+}
+
+#footer{
+  background-color: blue;
+  height: 70px;
+
+}
+
+.header1{
+  padding-top: 20px;;
+}
+.footer2{
+  padding-top:20px;
+  margin-top: 0;
+}
+
+.leftside2{
+  padding-top: 20px;
+  margin-bottom: 0;
+}
