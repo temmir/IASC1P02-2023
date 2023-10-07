@@ -1,0 +1,50 @@
+body{
+  background-color: green;
+}
+
+#wrapper{
+  width: 1000px;
+  height:600px;
+  margin:0 auto;
+  background-color: red;
+}
+ #header{
+   height:70px;
+   text-align: center;
+ }
+
+#firstnav1{
+  float:left;
+  height:100px;
+  background-color: pink;
+  width:300px;
+}
+
+#firstnav2{
+  float:left;
+  height: 100px;
+  width: 700px;
+  background-color: orange;
+
+}
+
+#content{
+  height: 505px;
+  background-color: blue;
+
+
+}
+
+#footer{
+  height:50px;
+  background-color: yellow;
+
+}
+
+.content2{
+  margin-bottom:0;
+}
+
+.footer2{
+  margin-top: 0;
+}
