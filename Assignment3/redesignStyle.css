@@ -1,0 +1,132 @@
+body{
+  background-color: #fbf0e4;
+}
+
+#wrapper{
+  width:1300px;
+  height:900px;
+  margin: auto;
+  background-color: #ecbd84;
+  border-style: solid;
+  border-color: #a47f53;
+}
+
+.header1{
+  height:70px;
+  text-align: center;
+  font-size: 50px;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+
+#slogan{
+  float:left;
+  height:600px;
+  background-color: #fdf8f1;
+  width: 500px;
+  margin-left: 30px;
+}
+
+#maincontent{
+  float: right;
+  height: 750px;
+  width: 700px;
+  background-color: #f5dbbb;
+  margin-right: 30px;
+  position:relative;
+}
+
+#footer{
+   height: 110px;
+   background-color: pink;
+   clear: both;
+   width: 26.5%;
+   margin-top:90px;
+   margin-left:30px;
+   position: absolute;
+   top:700px;
+   bottom: 150px;
+
+}
+
+#barimg{ /*first logo img*/
+  margin-left: -150px;
+  margin-top: -95px;
+  float:left;
+  width:10px;
+  height:5px;
+}
+
+#barimg2 {
+  /*second logo img*/
+  margin-right: -280px;
+  margin-top: -95px;
+  float:right;
+  width:10px;
+  height:5px;
+
+  }
+
+.leftside{
+  /*slogan*/
+  padding:200px 30px 80px 200px;
+  font-size: 30px;
+  font-family: "Brush Script MT", cursive;
+}
+
+#chicken{
+  margin: -400px -50px 80px 45px;
+  float: left;
+
+}
+
+
+#follow {
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  font-size: 30px;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+
+#socialmedia{
+  float: right;
+  margin-bottom: 100px;
+  position:absolute;
+  bottom:-100px;
+  right:305px;
+}
+
+
+#maincontentimg{
+  float: right;
+  margin: 90px 40px;
+
+}
+
+.mcbar{
+  float:left;
+  margin-left:80px;
+  font-family: Copperplate, Papyrus, fantasy;
+  text-decoration: underline;
+}
+
+.reviewandphotogallery{
+  padding-top: 20px;
+  font-size: 20px;
+  font-family: Copperplate, Papyrus, fantasy;
+
+}
+.menu{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 50px;
+  font-family: "Brush Script MT", cursive;
+  color:#463723;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#menuimg{
+  margin-top:-120px;
+  margin-left:320px;
+}
