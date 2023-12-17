@@ -1,0 +1,86 @@
+/*login form idea from (accessed dec 1 2023): https://www.w3schools.com/howto/howto_css_login_form.asp */
+body{
+  color: #764bc4;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+
+#wrapper{
+  width:950px;
+  height:645px;
+  margin:0 auto;
+  background-color: #d5cce3;
+}
+
+#header{
+  height:70px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.description{
+  float:left;
+  margin: -190px 50px 2px;
+  font-size: 30px;
+  white-space: pre-line;
+  font-weight: bold;
+  color: #fc5c7c;
+}
+
+.header1{
+  font-size: 70px;
+  font-family: "Brush Script MT", cursive;
+}
+
+
+/* for username and ps */
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  display: block;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+/* Set a style for all buttons */
+button {
+  padding: 14px 20px;
+  margin: 9px 0px;
+  margin-bottom: 20px;
+  width: 30%;
+
+}
+
+/* padding to containers */
+.container {
+  padding: 16px;
+  color: #fc5c7c;
+  font-size: 30px;
+}
+
+#loginbt, #signup{
+  color: blue;
+  margin: 30px 370px;
+  width: 90px;
+  float: left;
+  height: 50px;
+  background-color: white;
+
+}
+
+#crochetlogo{
+  float:right;
+  margin-top: -430px;
+  transition: transform 0.3s;
+}
+
+
+/*hover idea from: https://www.w3schools.com */
+#crochetlogo img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.userpsw{
+  font-weight: bolder;
+}
