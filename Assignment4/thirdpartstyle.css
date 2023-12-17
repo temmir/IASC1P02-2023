@@ -1,0 +1,73 @@
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body, html {    /*this code is from (accessed dec 7, 2023) https://www.w3schools.com/css/css3_animations.asp*/
+  height: 100%
+
+}
+
+.bgimg {
+  /* Background image */
+  background-image: url('crochetlogo.png');
+  /* Full-screen */
+  height: 100%;
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a white text color to all elements inside the .bgimg container */
+  color: white;
+  /* Add a font */
+  font-family: "Courier New", Courier, monospace;
+  /* Set the font-size to 25 pixels */
+  font-size: 25px;
+
+
+}
+
+/* Position text in the top-left corner */
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+  color:blue;
+}
+
+/* Position text in the bottom-left corner */
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+  color: red;
+  font-weight: bolder;
+  font-size: 50px;
+  animation: colorChange 3s infinite alternate;
+}
+
+@keyframes colorChange {
+    0%   {color: red; left: 0px; bottom: 0px;}
+    25%  {color: yellow; left: 200px; bottom: 0px;}
+    50%  {color: blue; left: 200px; bottom: 200px;}
+    75%  {color: green; left: 0px; bottom: 200px;}
+    100% {color: red; left: 0px; bottom: 0px;}
+}
+
+
+/* Position text in the middle */
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color:#764bc4;
+  font-weight: bolder;
+  font-size: 55px;
+
+}
+
+/* Style the <hr> element */
+hr {
+  margin: auto;
+  width: 40%;
+}
